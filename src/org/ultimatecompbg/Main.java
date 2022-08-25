@@ -42,7 +42,7 @@ public class Main extends Thread {
     public void run() {
         while(counter < end){
             try{
-                Thread.sleep(1000);
+                wait(1000);
             }
             catch(Exception e) {
                 break;
